@@ -1,4 +1,4 @@
-import type { Movie, MovieDetails, SearchResponse } from '../types';
+import type { MovieDetails, SearchResponse } from '../types';
 
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY as string;
 const BASE_URL = 'https://www.omdbapi.com';
