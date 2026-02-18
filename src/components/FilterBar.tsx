@@ -29,7 +29,7 @@ export const FilterBar = ({ filters, onFilterChange, onReset }: FilterBarProps) 
         </div>
 
         {/* Year filter */}
-        <div className="flex-1 min-w-[200px]">
+        <div className="flex-1 min-w-50">
           <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
             Année
           </label>
