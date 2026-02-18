@@ -8,7 +8,7 @@ export const MovieCard = ({ movie, onSelect, onToggleFavorite, isFavorite }: Mov
     <div className="group relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
       {/* Poster */}
       <div 
-        className="relative cursor-pointer h-[450px] overflow-hidden"
+        className="relative cursor-pointer h-112.5 overflow-hidden"
         onClick={() => onSelect(movie.imdbID)}
       >
         <img
@@ -19,7 +19,7 @@ export const MovieCard = ({ movie, onSelect, onToggleFavorite, isFavorite }: Mov
         />
         
         {/* Overlay on hover */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+        <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
           <button className="w-full py-2 bg-white/20 backdrop-blur-sm text-white rounded-lg font-semibold hover:bg-white/30 transition-colors">
             Voir détails
           </button>
