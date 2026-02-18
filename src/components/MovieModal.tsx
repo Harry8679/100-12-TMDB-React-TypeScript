@@ -98,14 +98,14 @@ export const MovieModal = ({
                 alt={movie.Title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-800 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-white dark:from-gray-800 via-transparent to-transparent" />
             </div>
 
             {/* Content */}
             <div className="p-8 -mt-32 relative">
               <div className="flex flex-col md:flex-row gap-8">
                 {/* Poster */}
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <img
                     src={poster}
                     alt={movie.Title}
